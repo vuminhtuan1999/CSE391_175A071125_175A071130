@@ -9,8 +9,9 @@
     crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
 	    crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/style4.css">
+	<link rel="stylesheet" href="../css/style2.css">
 </head>
 <body>
 	<div class="head_menu">
@@ -20,8 +21,8 @@
 		 			<a href="">SINH VIÊN</a>
                      <a href="">CÁN BỘ</a>
                      <a href="">MEDIA</a>
-			 		<img class="head_anh" src="../img/iconvn.jpg" alt="">
-			 		<img class="head_anh" src="../img/iconusa.jpg" alt="">
+			 		<img class="head_anh" src="img/iconvn.jpg" alt="">
+			 		<img class="head_anh" src="img/iconusa.jpg" alt="">
 		 		</div>
 		 		
 		  		<form class="form-inline">
@@ -54,9 +55,9 @@
 			    <li class="nav-item active">
 			      	<div id="accordion">
 
-				        <a class="nav-link default" href="gioithieu_gioithieu.html" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Giới thiệu <i class="fas fa-caret-down"></i></a>
+						<a class="nav-link default" href="gioithieu_gioithieu.html" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Giới thiệu <i class="fas fa-caret-down"></i></a>
 						<ul class="ul_con hidden_ul_con">
-							<li><a class="nav-link" href="gioithieu_thongtinkhaiquat.html">Thông tin khái quát</a></li>
+							<li><a class="nav-link" href="gioithieu_TTkhaiquat.html">Thông tin khái quát</a></li>
 							<li><a class="nav-link" href="gioithieu_cocautochuc.html">Cơ cấu tổ chức</a></li>
 							<li><a class="nav-link" href="">Hội đồng trường</a></li>
 							<li><a class="nav-link" href="">Báo cáo công khai</a></li>
@@ -64,14 +65,7 @@
 							<li><a class="nav-link" href="">Khảo sát việc làm sinh viên</a></li>
 							
 						</ul>
-						<ul class="hidden" id="collapseOne" onclick="huy()" class="collapse"  data-parent="#accordion">
-							<li><a class="nav-link" href="gioithieu_thongtinkhaiquat.html">Thông tin khái quát</a></li>
-							<li><a class="nav-link" href="gioithieu_cocautochuc.html">Cơ cấu tổ chức</a></li>
-							<li><a class="nav-link" href="gioithieu_hoidongtruong.html">Hội đồng trường</a></li>
-							<li><a class="nav-link" href="">Báo cáo công khai</a></li>
-							<li><a class="nav-link" href="">Ban giám hiệu</a></li>
-							<li><a class="nav-link" href="">Khảo sát việc làm sinh viên</a></li>
-						</ul>
+					
 					</div>
 			      </li>
 			      <li class="nav-item active">
@@ -79,23 +73,16 @@
 
 				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">tuyển sinh <i class="fas fa-caret-down"></i></a>
 						<ul class="ul_con hidden_ul_con">
-							<li><a class="nav-link" href="">Nghiên cứ sinh</a></li>
-							<li><a class="nav-link" href="">Cao học</a></li>
-							<li><a class="nav-link" href="tuyensinh_daihoc.html">Đại học</a></li>
-							<li><a class="nav-link" href="">Liên thông</a></li>
+							
+							<li><a class="nav-link" href="">Cổng thông tin tuyển sing EPU</a></li>
+							<li><a class="nav-link" href="">Đại học chính quy</a></li>
+							<li><a class="nav-link" href="">Nghiên cứu sinh</a></li>
+							<li><a class="nav-link" href="">Thạc sĩ</a></li>
 							<li><a class="nav-link" href="">Văn bằng 2</a></li>
-							<li><a class="nav-link" href="">Cao đẳng</a></li>
-							<li><a class="nav-link" href="">Vừa học vừa làm</a></li>
-						</ul>
-						<ul class="hidden" id="collapseOne" onclick="huy()" class="collapse"  data-parent="#accordion">
-							<li><a class="nav-link" href="">Nghiên cứ sinh</a></li>
-							<li><a class="nav-link" href="">Cao học</a></li>
-							<li><a class="nav-link" href="tuyensinh_daihoc.html">Đại học</a></li>
 							<li><a class="nav-link" href="">Liên thông</a></li>
-							<li><a class="nav-link" href="">Văn bằng 2</a></li>
-							<li><a class="nav-link" href="">Cao đẳng</a></li>
-							<li><a class="nav-link" href="">Vừa học vừa làm</a></li>
+							
 						</ul>
+					
 					</div>
 			      </li>
 
@@ -104,19 +91,15 @@
 
 				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseTwo" >Đào tạo <i class="fas fa-caret-down"></i></a>
 						<ul class="ul_con hidden_ul_con">
-							<li><a class="nav-link" href="daotao_daihoc.html">Đại học</a></li>
-							<li><a class="nav-link" href="daotao_lienthong.html">Liên thông</a></li>
-							<li><a class="nav-link" href="">Thạc sĩ</a></li>
 							<li><a class="nav-link" href="">Tiến sĩ</a></li>
-							<li><a class="nav-link" href="">Văn bằng 2</a></li>
-						</ul>
-						<ul class="hidden" id="collapseTwo" onclick="huy()" class="collapse" data-parent="#accordion">
-							<li><a class="nav-link" href="daotao_daihoc.html">Đại học</a></li>
-							<li><a class="nav-link" href="daotao_lienthong.html">Liên thông</a></li>
 							<li><a class="nav-link" href="">Thạc sĩ</a></li>
-							<li><a class="nav-link" href="">Tiến sĩ</a></li>
+							<li><a class="nav-link" href="daotao_daihoc.html">Đại học</a></li>
+							<li><a class="nav-link" href="">Đào tạo hợp tác quốc tế</a></li>
+							<li><a class="nav-link" href="">Đào tạo thường xuyên</a></li>
 							<li><a class="nav-link" href="">Văn bằng 2</a></li>
+							<li><a class="nav-link" href="daotao_lienthong.html">Liên thông</a></li>
 						</ul>
+						
 					</div>
 			      </li>
 
@@ -130,13 +113,27 @@
 							<li><a class="nav-link" href="">Các biểu mẫu khoa học</a></li>
 							<li><a class="nav-link" href="">Tạp chí KH&CN năng lượng</a></li>
 						</ul>
-						<ul class="hidden" id="collapseThree" onclick="huy()" class="collapse" data-parent="#accordion">
-							<li><a class="nav-link" href="">Đề tài khoa học</a></li>
-							<li><a class="nav-link" href="">Công bố khóa học</a></li>
-							<li><a class="nav-link" href="">Các biểu mẫu khoa học</a></li>
-							<li><a class="nav-link" href="">Tạp chí KH&CN năng lượng</a></li>
-						</ul>
+						
 					</div>
+					<li class="nav-item active">
+						<div id="accordion">
+	
+						  <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseThree" >CÁC KHOA<i class="fas fa-caret-down"></i></a>
+						  <ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="">Kĩ thuật điện</a></li>
+							<li><a class="nav-link" href="">Điều khiển và tự động hóa</a></li>
+							<li><a class="nav-link" href="">Quản lý công nghiệp và năng lượng</a></li>
+							<li><a class="nav-link" href="">Công nghệ thông tin</a></li>
+							<li><a class="nav-link" href="">Kinh tế quản lý</a></li>
+							<li><a class="nav-link" href="">Điện tử viễn thông</a></li>
+							<li><a class="nav-link" href="">Cơ khí điện lực</a></li>
+							<li><a class="nav-link" href="">Xây dựng</a></li>
+	
+						  </ul>
+						
+					  </div>
+					</li>
+					
 			      </li>
 
 			      <li class="nav-item active">
@@ -148,10 +145,7 @@
 							<li><a class="nav-link" href="hoptac_hoptacdoanhnghiep.html">Hợp tác doanh nghiệp</a></li>
 							
 						</ul>
-						<ul class="hidden" id="collapseThree" onclick="huy()" class="collapse" data-parent="#accordion">
-							<li><a class="nav-link" href="">Hợp tác quốc tế</a></li>
-							<li><a class="nav-link" href="hoptac_hoptacdoanhnghiep.html">Hợp tác doanh nghiệp</a></li>
-						</ul>
+						
 					</div>
 			      </li>
 
@@ -169,72 +163,106 @@
 		</nav>
 	</div>
 
-<!-- content -->
 
-<div class="tuyensinh">
+<div class="daotao">
 	<div class="container">
 		<div class="row head_a" style="">
 					<a href="">Trang chủ</a>
 					<span>></span>
-					<a href="">Tuyển sinh</a>
+					<a href="">Đào tạo</a>
 					<span>></span>
-					<a href="">Đại học</a>
+					<a href="">Liên thông</a>
+					
 				</div>
 	<div class="row">
 		<div class="col-md-8">
-			<div class="row" style="border-bottom:1px solid #f2dbdb;">
-				<h3>Đại học</h3>
+			<div class="row" style="border-bottom:1px solid #f2dbdb;margin-bottom: 1rem;">
+				<h4>Liên thông</h4>
 			</div>
-			<div class="content">
-				<div class="row div">
-					<div class="col-md-12 tieude pl-0"><a href="">Trường Đại học Điện lực công bố Đề án tuyển sinh trình độ đại học năm 2020</a></div>
-					<div class="col-md-12 time pl-0"><span>longepu |</span>02/06/2020</div>
-					<div class="row main">
-						
-								<div class="col-md-5 pl-0">
-										<img src="" alt="" style="width: 100%;">
-								</div>
-								<div class="col-md-5">
-									Trường Đại học Điện lực công bố Đề án tuyển sinh trình độ đại học năm 2020
-								</div>
-								<div class="col-md-2">
-									<br>
-										<a href="">Xem thêm</a>
-								</div>
-					</div>
-				</div>
-				<div class="row div">
-					<div class="col-md-12 tieude pl-0"><a href="">Thông báo phương án tuyển sinh Đại học chính quy năm 2020</a></div>
-					<div class="col-md-12 time pl-0"><span>longepu |</span> 12/02/2020</div>
-					<div class="row main">
-						
-								<div class="col-md-5 pl-0">
-										<img src="" alt="" style="width: 100%;">
-								</div>
-								<div class="col-md-5">
-									Thông báo phương án tuyển sinh Đại học chính quy năm 2020.
-								</div>
-								<div class="col-md-2">
-									<br>
-										<a href="">Xem thêm</a>
-								</div>
-					</div>
+			<div class="row">
+				<div class="head text-center mt-4 mb-4" style="width: 100%;">
+					<h5 class="">CÁC CHƯƠNG TRÌNH ĐÀO TẠO HỆ LIÊN THÔNG TRƯỜNG ĐẠI HỌC ĐIỆN LỰC</h5>
 				</div>
 				
-				
-				<div class="row" style="margin-top: 1rem;">
-					<nav aria-label="Page navigation example">
-					  <ul class="pagination">
-					    <li class="page-item">
-					      <a class="page-link" style="background-color: #b9b9b9;">Trang:</a>
-					    </li>
-					    <li class="page-item" ><a class="page-link active"  href="#">1</a></li>
-					    
-					   
-					  </ul>
-					</nav>
-				</div>
-				
+				<table style="border-collapse: collapse !important;margin-bottom: 3rem;">
+					<tr class="text-center"  style="background-color: #ebebeb;">
+						<td class="trai">Ngành Đào tạo</td>
+						<td style="font-weight: bold;" class="phai">Mục tiêu đào tạo</td>
+					</tr>
+					<tr  style="background-color: #f8f8f8;">
+						<td class="trai">CÔNG NGHỆ KỸ THUẬT ĐIỆN - ĐIỆN TỬ</td>
+						<td class="phai">
+						<b>- Đối tượng tuyển sinh</b>
+							<br>
+						<ul>
+							<li>Công dân Việt Nam có bằng tốt nghiệp cao đẳng</li>
+							<li>Nộp hồ sơ dự tuyển theo đúng mẫu quy định của nhà trường</li>
+							<li>Đạt yêu cầu tuyển sinh theo qui định của trường</li>
+							<li>Đủ sức khỏe để học tập</li>
+						</ul>
+						<br>
+						<b>- Thời gian đào tạo: </b>2 năm <br>
+						<b>- Khối lượng kiến thức toàn khóa:</b>72 tín chỉ
+						<br>
+						<br>
+						<a style="color: blue;text-decoration: underline;" href="https://www.epu.edu.vn/Uploads/files/1_%20LT%20C%C4%90%20%C4%90H%20CNKT%20Dien%2C%20dien%20tu.pdf">Xem chi tiết </a>
+						</td>
+					</tr>
+					<tr  style="background-color: #ebebeb;">
+						<td class="trai">QUẢN LÝ CÔNG NGHIỆP</td>
+						<td class="phai">
+						<b>- Đối tượng tuyển sinh</b>
+							<br>
+						<ul>
+							<li>Công dân Việt Nam có bằng tốt nghiệp cao đẳng</li>
+							<li>Nộp hồ sơ dự tuyển theo đúng mẫu quy định của nhà trường</li>
+							<li>Đạt yêu cầu tuyển sinh theo qui định của trường</li>
+							<li>Đủ sức khỏe để học tập</li>
+						</ul>
+						<br>
+						<b>- Thời gian đào tạo: </b>2 năm <br>
+						<b>- Khối lượng kiến thức toàn khóa:</b>69 tín chỉ
+						<br>
+						<br>
+						<a style="color: blue;text-decoration: underline;" href="https://www.epu.edu.vn/Uploads/files/2_%20LT%20C%C4%90%20%C4%90H%20QLCN.pdf">Xem chi tiết </a></td>
+					</tr>
+					<tr  style="background-color: #f8f8f8;">
+						<td class="trai">Ngành Quản trị kinh doanh</td>
+						<td class="phai">
+						<b>- Đối tượng tuyển sinh</b>
+							<br>
+						<ul>
+							<li>Công dân Việt Nam có bằng tốt nghiệp cao đẳng</li>
+							<li>Nộp hồ sơ dự tuyển theo đúng mẫu quy định của nhà trường</li>
+							<li>Đạt yêu cầu tuyển sinh theo qui định của trường</li>
+							<li>Đủ sức khỏe để học tập</li>
+						</ul>
+						<br>
+						<b>- Thời gian đào tạo: </b>1,5 năm<br>
+						<b>- Khối lượng kiến thức toàn khóa:</b>Tối đa 51 tín chỉ
+						<br>
+						<br>
+						<a style="color: blue;text-decoration: underline;" href="https://www.epu.edu.vn/Uploads/files/9_%20LT%20C%C4%90%20%C4%90H%20QTDN.pdfs">Xem chi tiết </a></td>
+					</tr>
+					<tr  style="background-color: #ebebeb;">
+						<td class="trai">Ngành công nghệ thông tin</td>
+						<td class="phai">
+						<b>- Đối tượng tuyển sinh</b>
+							<br>
+						<ul>
+							<li>Công dân Việt Nam có bằng tốt nghiệp cao đẳng</li>
+							<li>Nộp hồ sơ dự tuyển theo đúng mẫu quy định của nhà trường</li>
+							<li>Đạt yêu cầu tuyển sinh theo qui định của trường</li>
+							<li>Đủ sức khỏe để học tập</li>
+						</ul>
+						<br>
+						<b>- Thời gian đào tạo: </b>2 năm/04 học kỳ <br>
+						<b>- Khối lượng kiến thức toàn khóa:</b>68 tín chỉ
+						<br>
+						<br>
+						<a style="color: blue;text-decoration: underline;" href="https://www.epu.edu.vn/Uploads/files/5_%20LT%20C%C4%90%20%C4%90H%20CNTT.pdf">Xem chi tiết </a></td>
+					</tr>
+				</table>
 			</div>
 		</div>
 		<div class="col-md-4 phai">
@@ -243,13 +271,12 @@
 			</div>
 			<div class="row">
 				<ul style="list-style-type: none;width: 100%;" >
-					<li style="border-top: 1px solid #f2dbdb;"><a  href="">Nghiên cứu sinh</a></li>
-					<li><a href="">Cao học</a></li>
-					<li><a style="font-weight: bold;border-left: 2px solid black;padding-left: 0.5rem;" href="tuyensinh_daihoc.html">Đại học</a></li>
-					<li><a href="">Liên thông</a></li>
+					<li style="border-top: 1px solid #f2dbdb;"><a   href="">Tiến sĩ</a></li>
+					<li><a  href="">Thạc sĩ</a></li>
+					<li><a href="daotao_daihoc.html">Đại học</a></li>
+					<li><a style="font-weight: bold;border-left: 2px solid #C40333;padding-left: 0.5rem;" href="daotao_lienthong.html">Liên thông</a></li>
 					<li><a href="">Văn bằng 2</a></li>
-					<li><a href="">Vừa học vừa làm</a></li>
-					<li><a href="">Cao đẳng</a></li>
+					
 				</ul>
 			</div>
 			
@@ -257,6 +284,7 @@
 	</div>
 	</div>
 </div>
+
 
 <footer><!-- footer -->
 	<div class="row">

@@ -172,9 +172,7 @@
 	}
 		
 }
-#accordion a{
-	font-size: 85%;
-}
+
 /* slide */
 .innerslide{
 	width: 100%;
@@ -382,4 +380,26 @@ footer .col-md-5 i:hover{
 /*them*/
 .row,.main{
 	width: 100%;
+}
+.pagination a{
+	font-size: 100%;
+	color: white;
+	padding: 2px 6px;
+	color: white !important;
+	background-color: #b9b9b9!important;
+}
+.pagination li{
+	padding: 0;
+	margin-right: 5px;
+}
+.pagination .active{
+	background-color: #373737 !important;
+}
+/*them*/
+.top_head .nav-item .ul_con .nav-link{
+	
+	padding: 0.8rem 0.8rem;
+	font-size: 65%;
+	border-bottom: 1px solid #e0d9d9;
+	
 }
